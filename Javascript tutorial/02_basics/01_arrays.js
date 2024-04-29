@@ -19,10 +19,11 @@ console.log(myArr2);
 myArr3 = [0,1,2,3,4,5]
 
 console.log(myArr3.includes(3));
-
 const newArr = myArr3.join()
 console.log(myArr3);
 console.log(typeof myArr3);
+
+let Arr1 = [34,93285,32,532]
 
 
 // Major difference between slice and splice is that in slice original
