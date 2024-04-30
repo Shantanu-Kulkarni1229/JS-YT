@@ -4,7 +4,7 @@ tinderUser.id = "123abc"
 tinderUser.name = "Sammy"
 tinderUser.isLoggedIn = false;
 
-console.log(tinderUser);
+// console.log(tinderUser);
 
 
 const regularUser = {
@@ -17,7 +17,7 @@ const regularUser = {
   },
 }
 
-console.log(regularUser.fullName.userFullname.firstName)
+// console.log(regularUser.fullName.userFullname.firstName)
 
 const obj1 = {1: "a", 2 : "b"}
 const obj2 = {3: "a", 4 : "b"}
@@ -26,6 +26,27 @@ const obj4 = {5: "a", 6 : "b"}
 // const obj3 = {obj1, obj2};
 // const obj3 = Object.assign({}, obj1,  obj2, obj4)
 const obj3 = {...obj1, ...obj2, ...obj4}
-console.log(obj3);
+// console.log(obj3);
+
+// *********************************OBJECT DESTRUCTURING *****************/
+const course = {
+  coursename : "js in hindi",
+  price : "999",
+  courseInstructor : "hitesh"
+}
+
+const {courseInstructor : instructor} = course
+console.log(instructor);
+
+// { STRUCTURE OF API IN JSON FORMAT
+//   "name" : "hitesh",
+//   "coursename": "js in hindi",
+//   "price" : "free"
+// }
 
 
+[
+  {},
+  {},
+  {}
+]
